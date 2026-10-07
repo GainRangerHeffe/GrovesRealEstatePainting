@@ -1,0 +1,6 @@
+# Groves Real Estate Painting
+# Search engines and AI assistants are welcome to crawl and cite this site.
+User-agent: *
+Allow: /
+
+Sitemap: https://grovesrealestatepainting.com/sitemap.xml

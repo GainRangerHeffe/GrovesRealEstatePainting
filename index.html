@@ -3,409 +3,651 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Groves Real Estate Painting - Lowest prices for top-quality interior and exterior painting. Residential and commercial painting services.">
-    <meta name="keywords" content="painting, interior painting, exterior painting, residential painting, commercial painting, house painting, painters">
-    <meta name="author" content="Groves Real Estate Painting">
 
-    <!-- Open Graph / Social Media Tags -->
+    <title>House Painters in Erie, PA | Groves Real Estate Painting</title>
+    <meta name="description" content="Interior and exterior painting for homes, rentals and commercial properties in Erie, PA, plus cleanouts and hauling. Free quotes: (814) 873-2129.">
+    <meta name="author" content="Groves Real Estate Painting">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://grovesrealestatepainting.com/">
+
+    <!-- Local / geo -->
+    <meta name="geo.region" content="US-PA">
+    <meta name="geo.placename" content="Erie, Pennsylvania">
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Groves Real Estate Painting - Quality Painting Services">
-    <meta property="og:description" content="Unmatched value with lowest prices for top-quality interior and exterior painting services.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Groves Real Estate Painting">
+    <meta property="og:title" content="House Painters in Erie, PA | Groves Real Estate Painting">
+    <meta property="og:description" content="Interior and exterior painting for homes, rentals and commercial properties in Erie, PA. Low prices, quality work, free quotes.">
     <meta property="og:url" content="https://grovesrealestatepainting.com/">
-    <meta property="og:image" content="https://grovesrealestatepainting.com/image/logo.jpg">
+    <meta property="og:image" content="https://grovesrealestatepainting.com/image/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Groves Real Estate Painting Logo">
-    <meta property="og:site_name" content="Groves Real Estate Painting">
-    <meta property="fb:app_id" content="">
+    <meta property="og:image:alt" content="A repainted two-story home in Erie, PA, with the Groves Real Estate Painting logo">
 
-    <!-- Twitter Card Tags -->
+    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Groves Real Estate Painting - Quality Painting Services">
-    <meta name="twitter:description" content="Unmatched value with lowest prices for top-quality interior and exterior painting services.">
-    <meta name="twitter:image" content="https://grovesrealestatepainting.com/image/logo2.png">
+    <meta name="twitter:title" content="House Painters in Erie, PA | Groves Real Estate Painting">
+    <meta name="twitter:description" content="Interior and exterior painting for homes, rentals and commercial properties in Erie, PA. Low prices, quality work, free quotes.">
+    <meta name="twitter:image" content="https://grovesrealestatepainting.com/image/og-image.jpg">
+    <meta name="twitter:image:alt" content="A repainted two-story home in Erie, PA, with the Groves Real Estate Painting logo">
 
-    <!-- Resource hints -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-
-    <!-- Preload critical resources -->
-    <link rel="preload" href="styles.css" as="style">
-    <link rel="preload" href="script.js" as="script">
-    <link rel="preload" href="image/herovid.mp4" as="video" type="video/mp4">
-    <link rel="preload" href="image/logoround.webp" as="image">
-
-    <!-- Favicon -->
+    <!-- Icons -->
     <link rel="icon" type="image/png" sizes="32x32" href="image/paintbrush.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="image/paintbrush.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="image/paintbrush.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#10151c" media="(prefers-color-scheme: dark)">
 
-    <title>Groves Real Estate Painting - Quality Painting Services</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- EmailJS SDK -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init({
-                publicKey: "X5PGekQjcD2fjmxV7"
-            });
+    <!-- Apply the saved or system theme before first paint -->
+    <script>
+        (function () {
+            var saved = null;
+            try { saved = localStorage.getItem('theme'); } catch (e) {}
+            var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
         })();
     </script>
 
-    <!-- Defer non-critical JavaScript -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "HousePainter",
+                "@id": "https://grovesrealestatepainting.com/#business",
+                "name": "Groves Real Estate Painting",
+                "url": "https://grovesrealestatepainting.com/",
+                "description": "Interior and exterior painting for residential and commercial properties in Erie, Pennsylvania, plus property cleanouts and hauling.",
+                "slogan": "Unmatched value with the lowest prices for top-quality painting",
+                "logo": "https://grovesrealestatepainting.com/image/logoround.webp",
+                "image": "https://grovesrealestatepainting.com/image/og-image.jpg",
+                "telephone": "+1-814-873-2129",
+                "email": "Grovesrealestate@gmail.com",
+                "priceRange": "$",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Erie",
+                    "addressRegion": "PA",
+                    "addressCountry": "US"
+                },
+                "areaServed": [
+                    { "@type": "City", "name": "Erie", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+                    { "@type": "AdministrativeArea", "name": "Erie County, Pennsylvania" }
+                ],
+                "contactPoint": [
+                    { "@type": "ContactPoint", "name": "Jarrod", "telephone": "+1-814-873-2129", "contactType": "sales", "areaServed": "US-PA", "availableLanguage": "en" },
+                    { "@type": "ContactPoint", "name": "Jordan", "telephone": "+1-814-881-2723", "contactType": "sales", "areaServed": "US-PA", "availableLanguage": "en" }
+                ],
+                "parentOrganization": {
+                    "@type": "RealEstateAgent",
+                    "name": "Groves Real Estate LLC",
+                    "url": "https://www.grovesrealestatellc.com/"
+                },
+                "sameAs": [
+                    "https://www.facebook.com/profile.php?id=61567209480190",
+                    "https://www.instagram.com/groves_real_estate/"
+                ],
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Painting and property services",
+                    "itemListElement": [
+                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential painting", "description": "Interior and exterior house painting." } },
+                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial painting", "description": "Painting for offices, retail spaces and industrial buildings." } },
+                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cleanouts and hauling", "description": "Full property cleanouts with haul-away, no dumpster needed." } }
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://grovesrealestatepainting.com/#website",
+                "url": "https://grovesrealestatepainting.com/",
+                "name": "Groves Real Estate Painting",
+                "inLanguage": "en-US",
+                "publisher": { "@id": "https://grovesrealestatepainting.com/#business" }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://grovesrealestatepainting.com/#webpage",
+                "url": "https://grovesrealestatepainting.com/",
+                "name": "House Painters in Erie, PA | Groves Real Estate Painting",
+                "isPartOf": { "@id": "https://grovesrealestatepainting.com/#website" },
+                "about": { "@id": "https://grovesrealestatepainting.com/#business" },
+                "primaryImageOfPage": "https://grovesrealestatepainting.com/image/og-image.jpg",
+                "inLanguage": "en-US"
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://grovesrealestatepainting.com/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What areas does Groves Real Estate Painting serve?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "We are based in Erie, Pennsylvania and paint throughout Erie and the surrounding area. If you are not sure whether your address is in range, call (814) 873-2129 and ask." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you paint both interiors and exteriors?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We paint interiors and exteriors for houses, rentals, offices, retail spaces and industrial buildings." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How much does a quote cost?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Quotes are free. Send the quote form on this page, or call Jarrod at (814) 873-2129 or Jordan at (814) 881-2723." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can you get a property ready to sell or rent?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We can clean out the property, haul everything away without a dumpster, and repaint it inside and out so it is ready to list or lease." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do you offer services besides painting?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We handle full property cleanouts and hauling, so you do not need to rent a dumpster." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Groves Real Estate Painting part of Groves Real Estate LLC?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Groves Real Estate Painting is run by the same team as Groves Real Estate LLC in Erie, PA." }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-left">
-                <a href="https://www.facebook.com/profile.php?id=61567209480190" target="_blank" rel="noopener noreferrer" class="fb-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#fff"/>
-                    </svg>
-                </a>
-                <a href="https://www.zillow.com/profile/grovesrealestate" target="_blank" rel="noopener noreferrer" class="fb-icon zillow-icon">
-                    <img src="image/zillowlogo.png" alt="Zillow" style="width: 22px; height: 22px; object-fit: contain;">
-                </a>
-                <a href="https://www.grovesrealestatellc.com" target="_blank" rel="noopener noreferrer" class="fb-icon realestate-icon">
-                    <img src="image/realestate.webp" alt="Groves Real Estate LLC" style="width: 26px; height: 26px; object-fit: contain; border-radius: 50%;">
-                </a>
-                <div class="logo">
-                    <img src="image/logoround.webp" alt="Groves Real Estate Painting Logo">
-                    <span>Groves Real Estate Painting</span>
-                </div>
-            </div>
-            <div class="nav-center">
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a class="brand" href="#home" aria-label="Groves Real Estate Painting, home">
+                <img src="image/logoround.webp" alt="" width="44" height="44">
+                <span class="brand-name">Groves Real Estate <span>Painting</span></span>
+            </a>
+
+            <nav class="site-nav" id="siteNav" aria-label="Main">
+                <ul>
+                    <li><a href="#gallery">Our work</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-            <div class="nav-right">
-                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
-                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2"/>
+            </nav>
+
+            <div class="header-actions">
+                <a class="header-phone" href="tel:+18148732129">(814) 873-2129</a>
+                <button class="icon-button theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme">
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4.5"/>
+                        <path d="M12 2v2M12 20v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2 12h2M20 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/>
                     </svg>
-                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" style="display: none;">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2"/>
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
                     </svg>
                 </button>
-                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <a class="button button-primary header-cta" href="#contact">Get a free quote</a>
+                <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+                    <span></span><span></span><span></span>
                 </button>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero paint-splash blue-top orange-bottom">
-        <div class="hero-video">
-            <video id="hero-video" autoplay muted loop playsinline preload="metadata" poster="image/herovid-poster.jpg">
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <video class="hero-video" id="heroVideo" muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1">
                 <source src="image/herovid.mp4" type="video/mp4">
-                Your browser does not support the video tag.
             </video>
-            <div class="video-overlay"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Transform Your Space</h1>
-                <p class="hero-subtitle">Unmatched value with the lowest prices for top-quality painting</p>
-            </div>
-            <div class="hero-cta">
-                <button class="cta-button" onclick="scrollToQuote()">Get Free Quote</button>
-                <button class="sound-toggle" id="soundToggle" aria-label="Enable sound">
-                    <!-- Muted icon — shown by default -->
-                    <svg class="sound-off-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M11 5L6 9H2v6h4l5 4V5z"/>
-                        <line x1="23" y1="9" x2="17" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <line x1="17" y1="9" x2="23" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                    </svg>
-                    <!-- Sound-on icon — hidden by default -->
-                    <svg class="sound-on-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
-                        <path d="M11 5L6 9H2v6h4l5 4V5zM19.07 4.93l-1.41 1.41A9.969 9.969 0 0122 12a9.969 9.969 0 01-4.34 5.66l1.41 1.41A11.97 11.97 0 0024 12a11.97 11.97 0 00-5.93-7.07z"/>
-                        <path d="M15.54 8.46l-1.41 1.41A3.99 3.99 0 0116 12a3.99 3.99 0 01-1.87 2.13l1.41 1.41A5.99 5.99 0 0018 12a5.99 5.99 0 00-2.46-3.54z"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about paint-splash orange-bottom">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">About Groves Real Estate Painting</h2>
-                    <p>Groves Real Estate Painting delivers unmatched value with the lowest prices for top-quality interior and exterior painting. Our skilled team transforms residential and commercial properties, creating durable, customized results that bring your vision to life at the best possible value.</p>
-                    <div class="stats">
-                        <div class="stat">
-                            <span class="stat-number">100+</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">12+</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">5&#9733;</span>
-                            <span class="stat-label">Rated</span>
-                        </div>
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <h1>Interior and exterior painting in Erie, PA</h1>
+                    <p>Unmatched value with the lowest prices for top-quality painting. Homes, rentals and commercial properties. Quotes are free.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary button-large" href="#contact">Get a free quote</a>
+                        <a class="button button-light button-large" href="tel:+18148732129">Call (814) 873-2129</a>
                     </div>
                 </div>
-                <div class="about-image">
-                    <img src="image/logo2.webp" alt="Groves Painting Team" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section (Before & After) -->
-    <section id="gallery" class="gallery paint-splash blue-bottom">
-        <div class="container">
-            <h2 class="section-title">Before &amp; After Gallery</h2>
-            <div class="gallery-carousel">
-                <div class="carousel-container">
-                    <div class="gallery-track" id="galleryTrack">
-                        <div class="before-after-item">
-                            <img src="image/before1.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after1.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before2.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after2.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before4.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after4.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before5.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after5.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before6.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after6.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before7.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after7.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before8.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after8.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                        <div class="before-after-item">
-                            <img src="image/before9.webp" alt="Before painting" class="before-image" loading="lazy">
-                            <img src="image/after9.webp" alt="After painting" class="after-image" loading="lazy">
-                            <div class="overlay">Click to see after</div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-btn carousel-prev" id="prevBtn" aria-label="Previous slide">&#8249;</button>
-                <button class="carousel-btn carousel-next" id="nextBtn" aria-label="Next slide">&#8250;</button>
-                <div class="carousel-dots" id="carouselDots"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services paint-splash orange-bottom">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">&#127968;</div>
-                    <h3>Residential Painting</h3>
-                    <p>Transform your home with our expert interior and exterior painting services. We use premium paints for lasting beauty.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">&#127970;</div>
-                    <h3>Commercial Painting</h3>
-                    <p>Professional commercial painting for offices, retail spaces, and industrial buildings. Minimal disruption, maximum results.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">&#128666;</div>
-                    <h3>Cleanouts &amp; Hauling</h3>
-                    <p>We handle full property cleanouts and can haul everything away, no dumpster needed. Save time, money, and stress&mdash;let us do the heavy lifting.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Reviews Section -->
-    <section id="reviews" class="reviews paint-splash blue-bottom">
-        <div class="container">
-            <h2 class="section-title">What Our Customers Say</h2>
-            <div class="reviews-grid">
-                <div class="review-card">
-                    <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Jarrod and his crew are the best and so professional. Fast and very efficient as well as the outcome is beautiful! Definitely a satisfied customer!!"</p>
-                    <div class="reviewer">- Britany Greathouse-stapp</div>
-                </div>
-                <div class="review-card">
-                    <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"They do good work. Happy customer."</p>
-                    <div class="reviewer">- Scott Jeska</div>
-                </div>
-                <div class="review-card">
-                    <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p>"Transformed our entire office. Highly recommend Groves Painting!"</p>
-                    <div class="reviewer">- Jennifer L.</div>
-                </div>
-            </div>
-
-            <!-- Leave Review Form -->
-            <div class="leave-review">
-                <h3>Leave Us a Review</h3>
-                <p class="review-form-note">Your review will be sent directly to our team &mdash; we appreciate every bit of feedback!</p>
-                <form class="review-form">
-                    <label for="review-name" class="visually-hidden">Your Name</label>
-                    <input type="text" id="review-name" placeholder="Your Name" aria-label="Your Name" required>
-                    <label for="review-rating" class="visually-hidden">Star Rating</label>
-                    <select id="review-rating" aria-label="Star Rating" required>
-                        <option value="">Rate Our Service</option>
-                        <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733; Excellent</option>
-                        <option value="4">&#9733;&#9733;&#9733;&#9733;&#9734; Very Good</option>
-                        <option value="3">&#9733;&#9733;&#9733;&#9734;&#9734; Good</option>
-                        <option value="2">&#9733;&#9733;&#9734;&#9734;&#9734; Fair</option>
-                        <option value="1">&#9733;&#9734;&#9734;&#9734;&#9734; Poor</option>
-                    </select>
-                    <label for="review-text" class="visually-hidden">Your Review</label>
-                    <textarea id="review-text" placeholder="Tell us about your experience..." aria-label="Your Review" required></textarea>
-                    <button type="submit">Submit Review</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact/Quote Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get Your Free Quote</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <div class="contact-item">
-                        <span class="icon">&#128222;</span>
-                        <div class="contact-details">
-                            <a href="tel:8148732129">(814) 873-2129</a>
-                            <span>Jarrod</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">&#128222;</span>
-                        <div class="contact-details">
-                            <a href="tel:8148812723">(814) 881-2723</a>
-                            <span>Jordan</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">&#9993;&#65039;</span>
-                        <div class="contact-details">
-                            <a href="mailto:Grovesrealestate@gmail.com">Grovesrealestate@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="icon">&#128205;</span>
-                        <div class="contact-details">
-                            <span>Serving Pennsylvania &amp; surrounding areas</span>
-                        </div>
-                    </div>
-
-                    <!-- vCard Download Button -->
-                    <button class="vcard-button" onclick="downloadVCard()">
-                        <svg class="vcard-icon" viewBox="0 0 24 24">
-                            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
-                        </svg>
-                        Save Contact to Phone
+                <div class="video-controls">
+                    <button class="icon-button" id="videoPlayToggle" type="button" aria-label="Pause background video">
+                        <svg class="icon-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
+                        <svg class="icon-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg>
+                    </button>
+                    <button class="icon-button" id="videoSoundToggle" type="button" aria-label="Turn video sound on">
+                        <svg class="icon-muted" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path stroke="none" d="M11 5L6 9H2v6h4l5 4z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+                        <svg class="icon-sound" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path stroke="none" d="M11 5L6 9H2v6h4l5 4z"/><path fill="none" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
                     </button>
                 </div>
+            </div>
+        </section>
 
-                <form class="quote-form" id="quoteForm">
-                    <div class="form-row">
-                        <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required>
-                        <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+        <!-- Before and after gallery -->
+        <section class="section" id="gallery" aria-labelledby="galleryTitle">
+            <div class="container">
+                <div class="section-head section-head-split">
+                    <div>
+                        <h2 id="galleryTitle">Before and after</h2>
+                        <p>Real jobs around Erie. Tap any photo to flip between the day we showed up and the day we left.</p>
                     </div>
-                    <input type="text" name="address" placeholder="Project Address (City, State)" aria-label="Project Address" required>
-                    <div class="form-row">
-                        <input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number" required>
-                        <select name="projectType" aria-label="Project Type" required>
-                            <option value="">Project Type</option>
-                            <option value="residential-interior">Residential Interior</option>
-                            <option value="residential-exterior">Residential Exterior</option>
-                            <option value="commercial">Commercial</option>
-                            <option value="both">Interior &amp; Exterior</option>
-                        </select>
+                    <div class="carousel-buttons">
+                        <button class="icon-button icon-button-outline" id="galleryPrev" type="button" aria-label="Previous projects">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+                        </button>
+                        <button class="icon-button icon-button-outline" id="galleryNext" type="button" aria-label="More projects">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+                        </button>
                     </div>
-                    <textarea name="message" placeholder="Tell us about your project..." aria-label="Project Description" required></textarea>
-                    <button type="submit">Send Quote Request</button>
+                </div>
+
+                <ul class="jobs" id="galleryTrack" tabindex="0" aria-label="Before and after projects">
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before1.webp" alt="Before: single-story house with faded, peeling blue siding" loading="lazy" decoding="async" width="2048" height="1536">
+                                <img class="job-after" src="images/after1.webp" alt="After: the same house painted clean white" loading="lazy" decoding="async" width="2048" height="1536">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Ranch exterior repaint</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before.webp" alt="Before: kitchen with dated cherry-stained cabinets" loading="lazy" decoding="async" width="1280" height="750">
+                                <img class="job-after" src="images/after.webp" alt="After: the same kitchen with cabinets refinished in black" loading="lazy" decoding="async" width="1280" height="720">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Kitchen cabinet refinish</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before7.webp" alt="Before: two-story house with pale yellow siding and a worn porch" loading="lazy" decoding="async">
+                                <img class="job-after" src="images/after7.webp" alt="After: the same house in blue-gray with a white porch" loading="lazy" decoding="async">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Two-story exterior and porch</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before9.webp" alt="Before: gutted room with bare drywall and paint buckets on the floor" loading="lazy" decoding="async">
+                                <img class="job-after" src="images/after9.webp" alt="After: the same room finished as a kitchen with white cabinets and gray walls" loading="lazy" decoding="async">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Kitchen renovation paint</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before6.webp" alt="Before: split-level house with light, weathered siding" loading="lazy" decoding="async">
+                                <img class="job-after" src="images/after6.webp" alt="After: the same house painted deep navy with white trim" loading="lazy" decoding="async">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Split-level exterior repaint</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before4.webp" alt="Before: entry hall with orange oak door, trim and stair rail" loading="lazy" decoding="async" width="1063" height="796">
+                                <img class="job-after" src="images/after4.webp" alt="After: the same entry with white door and trim and a black stair rail" loading="lazy" decoding="async" width="1354" height="1500">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Entry hall and staircase</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before2.webp" alt="Before: unfinished room with a stained concrete floor" loading="lazy" decoding="async" width="1080" height="1920">
+                                <img class="job-after" src="images/after2.webp" alt="After: the same room with a coated floor and freshly painted two-tone walls" loading="lazy" decoding="async" width="2048" height="1536">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Floor coating and walls</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before8.webp" alt="Before: room with unpainted, freshly taped drywall" loading="lazy" decoding="async">
+                                <img class="job-after" src="images/after8.webp" alt="After: the same room painted gray with white doors and trim" loading="lazy" decoding="async">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>New drywall to finished room</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="job">
+                        <figure>
+                            <div class="job-photos">
+                                <img src="images/before5.webp" alt="Before: deck steps with peeling, worn stain" loading="lazy" decoding="async" width="756" height="1008">
+                                <img class="job-after" src="images/after5.webp" alt="After: the same deck steps with a fresh, even coat of stain" loading="lazy" decoding="async" width="756" height="1008">
+                                <span class="job-state">Before</span>
+                            </div>
+                            <figcaption>
+                                <span>Deck and steps restain</span>
+                                <button class="job-toggle" type="button" aria-pressed="false">Show after</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section section-tinted section-logo" id="services" aria-labelledby="servicesTitle">
+            <div class="container">
+                <div class="section-head">
+                    <h2 id="servicesTitle">What we do</h2>
+                    <p>Painting first, and the cleanup work that usually comes with it.</p>
+                </div>
+                <div class="chips">
+                    <article class="chip chip-blue">
+                        <div class="chip-color" aria-hidden="true">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 23L24 8l18 15"/><path d="M11 20v19h26V20"/><path d="M20 39V28h8v11"/></svg>
+                        </div>
+                        <div class="chip-label">
+                            <h3>Residential painting</h3>
+                            <p>Interior and exterior painting for houses and rentals. Walls, ceilings, trim, cabinets, siding, porches and decks, done with premium paint that lasts.</p>
+                        </div>
+                    </article>
+                    <article class="chip chip-orange">
+                        <div class="chip-color" aria-hidden="true">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 40V12h18v28"/><path d="M26 22h14v18"/><path d="M4 40h40"/><path d="M14 19h6M14 26h6M14 33h6M32 29h3M32 35h3"/></svg>
+                        </div>
+                        <div class="chip-label">
+                            <h3>Commercial painting</h3>
+                            <p>Offices, retail spaces and industrial buildings. We plan the work around your hours so the business keeps running while we paint.</p>
+                        </div>
+                    </article>
+                    <article class="chip chip-amber">
+                        <div class="chip-color" aria-hidden="true">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h24v22H4z"/><path d="M28 20h9l7 7v7H28"/><circle cx="13" cy="36" r="4"/><circle cx="35" cy="36" r="4"/></svg>
+                        </div>
+                        <div class="chip-label">
+                            <h3>Cleanouts and hauling</h3>
+                            <p>Full property cleanouts, hauled away for you. No dumpster to rent, and the place is empty and ready for paint when we are done.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about" aria-labelledby="aboutTitle">
+            <div class="container about">
+                <div class="about-copy">
+                    <h2 id="aboutTitle">About Groves Real Estate Painting</h2>
+                    <p>Groves Real Estate Painting is a painting company in Erie, Pennsylvania. We paint the inside and outside of homes, rentals and commercial buildings, and we keep our prices the lowest we can without cutting corners on prep, paint or finish.</p>
+                    <p>We are run by the same team as <a href="https://www.grovesrealestatellc.com" target="_blank" rel="noopener">Groves Real Estate LLC</a>, so we know what a property needs before it is listed, leased or moved into.</p>
+                    <dl class="facts">
+                        <div>
+                            <dt>Projects completed</dt>
+                            <dd>100+</dd>
+                        </div>
+                        <div>
+                            <dt>Years of experience</dt>
+                            <dd>12+</dd>
+                        </div>
+                        <div>
+                            <dt>Customer rating</dt>
+                            <dd>5 stars</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="about-logo">
+                    <img src="image/logo2.webp" alt="Groves Real Estate Painting Services logo" width="1024" height="1024" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="section section-tinted section-logo" id="reviews" aria-labelledby="reviewsTitle">
+            <div class="container">
+                <div class="section-head">
+                    <h2 id="reviewsTitle">What customers say</h2>
+                </div>
+                <div class="reviews">
+                    <figure class="review">
+                        <div class="stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>
+                            <p>Jarrod and his crew are the best and so professional. Fast and very efficient as well as the outcome is beautiful! Definitely a satisfied customer!!</p>
+                        </blockquote>
+                        <figcaption>Britany Greathouse-stapp</figcaption>
+                    </figure>
+                    <figure class="review">
+                        <div class="stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>
+                            <p>They do good work. Happy customer.</p>
+                        </blockquote>
+                        <figcaption>Scott Jeska</figcaption>
+                    </figure>
+                    <figure class="review">
+                        <div class="stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>
+                            <p>Transformed our entire office. Highly recommend Groves Painting!</p>
+                        </blockquote>
+                        <figcaption>Jennifer L.</figcaption>
+                    </figure>
+                </div>
+
+                <details class="leave-review">
+                    <summary>Worked with us? Leave a review</summary>
+                    <p class="form-note">Your review goes straight to our team.</p>
+                    <form class="form" id="reviewForm">
+                        <div class="field">
+                            <label for="reviewName">Your name</label>
+                            <input type="text" id="reviewName" name="name" autocomplete="name" required>
+                        </div>
+                        <div class="field">
+                            <label for="reviewRating">Rating</label>
+                            <select id="reviewRating" name="rating" required>
+                                <option value="">Choose a rating</option>
+                                <option value="5">5 stars, excellent</option>
+                                <option value="4">4 stars, very good</option>
+                                <option value="3">3 stars, good</option>
+                                <option value="2">2 stars, fair</option>
+                                <option value="1">1 star, poor</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="reviewText">Your review</label>
+                            <textarea id="reviewText" name="review" rows="4" required></textarea>
+                        </div>
+                        <button class="button button-secondary" type="submit">Send review</button>
+                    </form>
+                </details>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq" aria-labelledby="faqTitle">
+            <div class="container faq">
+                <div class="section-head">
+                    <h2 id="faqTitle">Common questions</h2>
+                </div>
+                <div class="faq-list">
+                    <details>
+                        <summary>What areas do you serve?</summary>
+                        <p>We are based in Erie, Pennsylvania and paint throughout Erie and the surrounding area. Not sure if your address is in range? Call <a href="tel:+18148732129">(814) 873-2129</a> and ask.</p>
+                    </details>
+                    <details>
+                        <summary>Do you paint both interiors and exteriors?</summary>
+                        <p>Yes. We paint interiors and exteriors for houses, rentals, offices, retail spaces and industrial buildings.</p>
+                    </details>
+                    <details>
+                        <summary>How much does a quote cost?</summary>
+                        <p>Quotes are free. Send the <a href="#contact">quote form</a>, or call Jarrod at <a href="tel:+18148732129">(814) 873-2129</a> or Jordan at <a href="tel:+18148812723">(814) 881-2723</a>.</p>
+                    </details>
+                    <details>
+                        <summary>Can you get a property ready to sell or rent?</summary>
+                        <p>Yes. We can clean out the property, haul everything away without a dumpster, and repaint it inside and out so it is ready to list or lease.</p>
+                    </details>
+                    <details>
+                        <summary>Do you offer services besides painting?</summary>
+                        <p>Yes. We handle full property cleanouts and hauling, so you do not need to rent a dumpster.</p>
+                    </details>
+                    <details>
+                        <summary>Are you part of Groves Real Estate LLC?</summary>
+                        <p>Yes. Groves Real Estate Painting is run by the same team as <a href="https://www.grovesrealestatellc.com" target="_blank" rel="noopener">Groves Real Estate LLC</a> in Erie, PA.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / quote -->
+        <section class="section section-tinted" id="contact" aria-labelledby="contactTitle">
+            <div class="container contact">
+                <div class="contact-info">
+                    <h2 id="contactTitle">Get a free quote</h2>
+                    <p>Tell us about the job and we will get back to you with a price. Calling is fastest.</p>
+
+                    <address>
+                        <a class="contact-line" href="tel:+18148732129">
+                            <span class="contact-label">Call Jarrod</span>
+                            <span class="contact-value">(814) 873-2129</span>
+                        </a>
+                        <a class="contact-line" href="tel:+18148812723">
+                            <span class="contact-label">Call Jordan</span>
+                            <span class="contact-value">(814) 881-2723</span>
+                        </a>
+                        <a class="contact-line" href="mailto:Grovesrealestate@gmail.com">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">Grovesrealestate@gmail.com</span>
+                        </a>
+                        <div class="contact-line">
+                            <span class="contact-label">Service area</span>
+                            <span class="contact-value">Erie, PA and the surrounding area</span>
+                        </div>
+                    </address>
+
+                    <a class="button button-outline" href="contact.vcf" download="Groves-Real-Estate-Painting.vcf">Save our contact to your phone</a>
+                </div>
+
+                <form class="form quote-form" id="quoteForm">
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="quoteName">Your name</label>
+                            <input type="text" id="quoteName" name="name" autocomplete="name" required>
+                        </div>
+                        <div class="field">
+                            <label for="quotePhone">Phone</label>
+                            <input type="tel" id="quotePhone" name="phone" autocomplete="tel" inputmode="tel" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="quoteEmail">Email</label>
+                        <input type="email" id="quoteEmail" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="quoteAddress">Project city and state</label>
+                            <input type="text" id="quoteAddress" name="address" autocomplete="address-level2" required>
+                        </div>
+                        <div class="field">
+                            <label for="quoteType">Type of project</label>
+                            <select id="quoteType" name="projectType" required>
+                                <option value="">Choose one</option>
+                                <option value="residential-interior">Residential interior</option>
+                                <option value="residential-exterior">Residential exterior</option>
+                                <option value="both">Interior and exterior</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="cleanout">Cleanout and hauling</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="quoteMessage">About the project</label>
+                        <textarea id="quoteMessage" name="message" rows="5" required></textarea>
+                    </div>
+                    <button class="button button-primary button-large" type="submit">Send quote request</button>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <a href="https://www.facebook.com/profile.php?id=61567209480190" target="_blank" rel="noopener noreferrer" class="fb-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="#fff"/>
-                    </svg>
-                </a>
-                <a href="https://www.instagram.com/groves_real_estate/" target="_blank" rel="noopener noreferrer" class="fb-icon instagram-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                    </svg>
-                </a>
-                <a href="https://www.zillow.com/profile/grovesrealestate" target="_blank" rel="noopener noreferrer" class="fb-icon zillow-icon">
-                    <img src="image/zillowlogo.png" alt="Zillow" style="width: 22px; height: 22px; object-fit: contain;">
-                </a>
-                <a href="https://www.grovesrealestatellc.com" target="_blank" rel="noopener noreferrer" class="fb-icon realestate-icon">
-                    <img src="image/realestate.webp" alt="Groves Real Estate LLC" style="width: 26px; height: 26px; object-fit: contain; border-radius: 50%;">
-                </a>
-                <div class="footer-logo">
-                    <img src="image/logoround.webp" alt="Groves Real Estate Painting" loading="lazy">
-                    <span>Groves Real Estate Painting</span>
-                </div>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#gallery">Gallery</a>
-                    <a href="#services">Services</a>
-                    <a href="#reviews">Reviews</a>
-                    <a href="#contact">Contact</a>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="image/logoround.webp" alt="" width="56" height="56" loading="lazy">
+                <div>
+                    <p class="footer-name">Groves Real Estate Painting</p>
+                    <p>Interior and exterior painting in Erie, PA.<br>
+                        <a href="tel:+18148732129">(814) 873-2129</a></p>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> Groves Real Estate Painting. All rights reserved.</p>
+
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="#gallery">Our work</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="footer-links">
+                <a href="https://www.facebook.com/profile.php?id=61567209480190" target="_blank" rel="noopener">Facebook</a>
+                <a href="https://www.instagram.com/groves_real_estate/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.zillow.com/profile/grovesrealestate" target="_blank" rel="noopener">Zillow</a>
+                <a href="https://www.grovesrealestatellc.com" target="_blank" rel="noopener">Groves Real Estate LLC</a>
             </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="year">2026</span> Groves Real Estate Painting. All rights reserved.</p>
+            <p>Site by <a href="https://grhwebsolutions.com" target="_blank" rel="noopener">GRH Web Solutions</a></p>
         </div>
     </footer>
 
-    <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loadingOverlay">
-        <div class="loading-spinner"></div>
+    <!-- Phone-only action bar -->
+    <div class="action-bar">
+        <a class="button button-light" href="tel:+18148732129">Call us</a>
+        <a class="button button-primary" href="#contact">Get a free quote</a>
     </div>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
-
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
